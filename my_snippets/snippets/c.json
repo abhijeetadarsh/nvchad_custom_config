@@ -1,0 +1,19 @@
+{
+	"mybody": {
+		"prefix": "body",
+		"body": [
+			"#include <stdio.h>",
+			"int main()",
+			"{",
+			"${1:// #ifndef ONLINE_JUDGE",
+			"//    freopen(\"input.txt\",  \"r\",  stdin);",
+			"//    freopen(\"output.txt\", \"w\", stdout);",
+			"// #endif}",
+			"",
+			"    $0",
+			"    return 0;",
+			"}"
+		],
+		"description": "mybody"
+	}
+}
